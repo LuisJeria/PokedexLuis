@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/padding_poke"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nombre_poke_pl"
+            android:textSize="@dimen/tamanio_letra"
+            android:text="texto1"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tipo_poke_pl"
+            android:textSize="@dimen/tamanio_letra"
+            android:text="texto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <ImageView
+
+        android:id="@+id/img_poke_lv"
+        android:layout_weight="1"
+        android:layout_width="@dimen/tamanio_icono"
+        android:layout_height="@dimen/tamanio_icono">
+
+    </ImageView>
+
+
+
+</LinearLayout>
