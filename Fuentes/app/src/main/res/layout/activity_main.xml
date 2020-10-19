@@ -10,6 +10,13 @@
     <include layout="@layout/poketoolbar">
 
     </include>
+    <TextView
+        android:layout_marginTop="@dimen/poke_margin_top"
+        android:padding="@dimen/padding_poke"
+        android:text="Pokemones Visualizados"
+        android:textSize="@dimen/tamanio_cabezera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
     <ListView
         android:id="@+id/pokemones_lv"
         android:layout_width="match_parent"

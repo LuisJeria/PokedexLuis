@@ -20,7 +20,7 @@ public class PokemonesDAOLista implements PokemonesDAO {
         Pokemon p = new Pokemon();
         p.setNombre("Pikachu");
         p.setTipo("Electrico");
-        p.setDescripcion("Lorem ipsum dolor sit amet, consectetur adipiscing elit. ");
+        p.setDescripcion("PIKA PIKA ");
         p.setFoto("https://i.pinimg.com/474x/ab/a7/40/aba74081bbb7d256c43a80eaac88ba7a.jpg");
         p.setIcono(0);
         pokemones.add(p);
@@ -28,7 +28,7 @@ public class PokemonesDAOLista implements PokemonesDAO {
         p = new Pokemon();
         p.setNombre("Charmander");
         p.setTipo("Fuego");
-        p.setDescripcion("Lorem ipsum dolor sit amet, consectetur adipiscing elit. ");
+        p.setDescripcion("CHARMANDEEEEEEEER");
         p.setFoto("https://pm1.narvii.com/6375/b6914ab388480df3db5a4ee455a5fb780bc762ec_hq.jpg");
         p.setIcono(1);
         pokemones.add(p);
@@ -36,7 +36,7 @@ public class PokemonesDAOLista implements PokemonesDAO {
         p = new Pokemon();
         p.setNombre("Squirtle");
         p.setTipo("Agua");
-        p.setDescripcion("Lorem ipsum dolor sit amet, consectetur adipiscing elit. ");
+        p.setDescripcion("VAMOH A CALMARNO");
         p.setFoto("https://easydrawingart.com/wp-content/uploads/2019/08/How-to-draw-Squirtle.jpg");
         p.setIcono(2);
         pokemones.add(p);
@@ -44,7 +44,7 @@ public class PokemonesDAOLista implements PokemonesDAO {
         p = new Pokemon();
         p.setNombre("Bulbasaur");
         p.setTipo("Planta");
-        p.setDescripcion("Lorem ipsum dolor sit amet, consectetur adipiscing elit. ");
+        p.setDescripcion("BULBA SAUUUUUUUUUUR");
         p.setFoto("https://i.pinimg.com/originals/eb/8a/a7/eb8aa77a9d30d043b99d94be550ef2de.jpg");
         p.setIcono(3);
         pokemones.add(p);

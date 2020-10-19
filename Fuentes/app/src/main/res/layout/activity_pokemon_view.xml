@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PokemonViewActivity">
+    <include layout="@layout/poketoolbar">
+
+    </include>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/poke_margin_top"
+            android:padding="@dimen/padding_poke"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamanio_nombre"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/nombre_poke_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <ImageView
+            android:layout_marginTop="@dimen/poke_margin_top"
+            android:padding="@dimen/padding_poke"
+            android:id="@+id/img_poke_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="@dimen/tamanio_icono"
+            android:layout_height="@dimen/tamanio_icono">
+
+        </ImageView>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/foto_poke_view"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/tamanio_foto"
+        android:layout_height="@dimen/tamanio_foto">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/desc_poke_view"
+        android:layout_marginTop="@dimen/poke_margin_top"
+        android:padding="@dimen/padding_poke"
+        android:textSize="@dimen/tamanio_letra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+</LinearLayout>

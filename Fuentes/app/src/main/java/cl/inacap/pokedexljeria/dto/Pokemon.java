@@ -1,6 +1,8 @@
 package cl.inacap.pokedexljeria.dto;
 
-public class Pokemon {
+import java.io.Serializable;
+
+public class Pokemon implements Serializable {
     private String nombre;
     private String tipo;
     private int icono;

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="alto_imagen_logo">80dp</dimen>
-    <dimen name="tamanio_icono">120dp</dimen>
-    <dimen name="tamanio_letra">20sp</dimen>
+    <dimen name="tamanio_icono">100dp</dimen>
+    <dimen name="tamanio_letra">15sp</dimen>
     <dimen name="padding_poke">10dp</dimen>
+    <dimen name="tamanio_cabezera">20sp</dimen>
+    <dimen name="poke_margin_top">10dp</dimen>
+    <dimen name="tamanio_foto">300dp</dimen>
+    <dimen name="tamanio_nombre">30sp</dimen>
+    <dimen name="poke_padding_right">50dp</dimen>
 </resources>

@@ -3,8 +3,12 @@ package cl.inacap.pokedexljeria;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -28,5 +32,16 @@ public class MainActivity extends AppCompatActivity {
         this.pokemonesLv = findViewById(R.id.pokemones_lv);
         this.adapter = new PokemonesListAdapter(this, R.layout.pokemones_list, this.pokemones);
         this.pokemonesLv.setAdapter(this.adapter);
+
+        this.pokemonesLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Pokemon pokemon = pokemones.get(i);
+
+                Intent intent = new Intent(MainActivity.this,PokemonViewActivity.class);
+                intent.putExtra("pokemon",pokemon);
+                startActivity(intent);
+            }
+        });
     }
 }
